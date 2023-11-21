@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oleg Sakharov - Découvrez mes compétences</title>
+  <meta name="description"
+    content="Je suis Oleg Sakharov, développeur web freelance depuis 12 ans. Mon domaine d'expertise s'étend de l'intégration à la configuration back-end." />
+  <link rel="shortcut icon" href="images/general/favicon.svg" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body id="top" class="font-popins">
+
+  <!-- HEADER -->
+  <header>
+    <!-- NAVIGATION -->
+    <nav class="bg-white z-50 fixed top-0 w-full shadow">
+      <div id="main-nav" class="bg-white max-w-3xl mx-auto p-4 flex items-center justify-between flex-wrap md:p-5">
+        <a href="#top" aria-label="Accueil du portfolio" class="text-lg lg:text-xl">
+          Sakharov <span class="font-bold">O<span class="text-rose-600">.</span> </span>
+        </a>
+        <button aria-controls="main-navlist" aria-expanded="false" id="menu-toggler"
+          class="cursor-pointer w-7 md:hidden">
+          <img width="28" height="28" src="images/hero/menu.svg" alt="Ouvrir et fermer le menu">
+        </button>
+        <ul id="main-navlist" class="bg-white hidden text-center w-full pt-4 text-gray-800 md:w-auto md:block md:pt-0">
+          <li class="block py-3 md:inline md:py-0 md:mr-6">
+            <a href="#cv" class="text-sm uppercase font-semibold hover:text-rose-600">
+              CV
+            </a>
+          </li>
+          <li class="block py-3 md:inline md:py-0 md:mr-6">
+            <a href="#competences" class="text-sm uppercase font-semibold hover:text-rose-600">Compétences
+            </a>
+          </li>
+          <li class="block py-3 md:inline md:py-0 md:mr-6">
+            <a href="#projets" class="text-sm uppercase font-semibold hover:text-rose-600">Projets
+            </a>
+          </li>
+          <li class="block py-3 md:inline md:py-0">
+            <a href="#contact" class="text-sm uppercase font-semibold hover:text-rose-600">Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- HERO  hero section -->
+    <div class="relative px-6 text-center text-main pt-32">
+      <div
+        class="mx-auto w-44 relative mb-10 md:w-64             
+      after:absolute after:w-20 after:h-20 after:-bottom-3 after:-left-3 after:-z-10 after:border-solid after:border-2 after:border-main
+      
+      before:absolute before:w-20 before:h-20 before:-top-3 before:-right-3 before:-z-10 before:border-solid before:border-2 before:border-main">
+        <img width="256" height="320" src="./images/hero/main-portrait.jpg" alt="photographie de Oleg Sakharov">
+      </div>
+      <p class="mb-8 sm:text-lg md:text-3xl">
+        Bonjour, je suis <strong>Oleg Sakharov</strong>
+      </p>
+      <h1
+        class="font-lora text-4xl mb-12 max-w-xs mx-auto font-light sm:text-5xl sm:mb-14 sm:max-w-md md:text-6xl md:max-w-xl">
+        Développeur <span class="italic">Freelance</span> en quête de projets<span class="text-red-dark">.</span>
+      </h1>
+      <a class="group text-xs bg-main text-white inline-flex justify-center items-center py-4 px-6 mb-20 hover:bg-main-light duration-200 sm:text-sm md: text-base mb:px-10"
+        href="#">
+        Mes compétences
+        <img width="14" height="15" class="ml-4 h-2.5 group-hover:translate-y-0.5 duration-200 md:h-3"
+          src="./images/general/arrowDown.png" alt="">
+      </a>
+
+      <img width="580" height="1255" class="absolute h-full top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 -z-50"
+        src="./images/hero/decoration.png" alt="">
+    </div>
+
+  </header>
+
+  <!-- main content of the page -->
+  <main>
+
+    <!-- SECTION TRUST -->
+    <section class="bg-main pt-14 pb-12 px-4 md:pt-16 lg:pb-20">
+      <p class="italic font-lora text-center text-gray-light text-sm mb-4 md:text-lg">Des particuliers aux entreprises
+      </p>
+
+      <h2
+        class="text-white font-lora relative z-0 text-2xl w-fit mx-auto mb-7 sm:text-4xl sm:mb-10 md:text-5xl md:mb-12
+         after:absolute after:w-full after:h-2 after:bottom-0 after:left-0 after:-z-10 after:bg-main-light sm:after:h-5 sm:after:-bottom-2">
+        Ils m'ont fait confiance</h2>
+
+      <div class="grid grid-cols-2 mt-8 max-w-sm mx-auto sm:grid-cols-4 sm:max-w-xl lg:max-w-2xl">
+
+        <div class="flex justify-center">
+          <img width="132" height="80" src="./images/company/Google.png" alt="Logo de l'entreprise Google"
+            class="h-16 sm:h-20">
+        </div>
+
+        <div class="flex justify-center">
+          <img width="132" height="80" src="./images/company/Spotify.png" alt="Logo de l'entreprise Spotify"
+            class="h-16 sm:h-20">
+        </div>
+
+        <div class="flex justify-center">
+          <img width="132" height="80" src="./images/company/Qiwi.png" alt="Logo de l'entreprise Qiwi"
+            class="h-16 sm:h-20">
+        </div>
+
+        <div class="flex justify-center">
+          <img width="132" height="80" src="./images/company/Yandex.png" alt="Logo de l'entreprise Yandex"
+            class="h-16 sm:h-20">
+        </div>
+
+
+      </div>
+    </section>
+
+
+    <!-- SECTION CV -->
+    <section id="cv" class="px-6 pt-10 pb-16 sm:pt-16 sm:pb-32 md:pt-24 md:pb-44">
+
+      <p class="italic font-lora text-center text-gray-dark text-sm mb-4 md:text-lg">Découvrez-moi à partir de mon CV
+      </p>
+
+      <h2
+        class="text-main font-lora relative z-0 text-2xl w-fit mx-auto mb-7 sm:text-4xl sm:mb-10 md:text-5xl md:mb-12
+                     after:absolute after:w-full after:h-2 after:bottom-0 after:left-0 after:-z-10 after:bg-red-light sm:after:h-5 sm:after:-bottom-2">
+        Éducation & Expérience</h2>
+      <p
+        class="text-xs text-gray-dark leading-5 max-w-xs mx-auto text-center sm:text-sm sm:leading-7 sm:max-w-sm lg:max-w-md">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam ducimus dolorum suscipit dolor hic officia.
+        Esse, in pariatur!
+      </p>
+
+      <!-- GRID -->
+      <div class="text-main mt-12 grid grid-cols-1 max-w-xl mx-auto md:mt-24 md:grid-cols-2">
+
+        <!-- COL 1 AVEC LES GROS CHIFFRES -->
+        <div class="font-lora text-center md:text-left">
+
+          <div class="mb-10 md:mb-24">
+            <p class="text-6xl font-medium mb-2 md:text-8xl md:mb-5">
+              12<span class="text-3xl md:text-4xl">+</span>
+            </p>
+            <p class="text-xl md:max-w-[120px]">Années d'expériences</p>
+          </div>
+
+          <div class="mb-10 md:mb-24">
+            <p class="text-6xl font-medium mb-2 md:text-8xl md:mb-5">52</p>
+            <p class="text-xl md:max-w-[120px]">Projets réalisés</p>
+          </div>
+
+          <div class="mb-10 md:mb-24">
+            <p class="text-6xl font-medium mb-2 md:text-8xl md:mb-5">
+              98<span class="text-3xl md:text-4xl">%</span>
+            </p>
+            <p class="text-xl md:max-w-[120px]">Clients satisfaits</p>
+          </div>
+
+        </div>
+
+        <!-- COL 2 AVEC LE PARCOURS -->
+        <div class="mt-10 text-center md:mt-0 md:text-left">
+          <span class="mb-8 inline-block">2021</span>
+
+          <div class="max-w-260 mx-auto mb-10 md:max-w-full md:mx-0">
+            <p class="font-lora text-xl mb-4">
+              Diplôme d'intégrateur & web développeur
+            </p>
+            <p class="text-sm text-gray-dark">3W Academy - Paris</p>
+          </div>
+
+          <div class="max-w-260 mx-auto mb-10 md:max-w-full md:mx-0">
+            <p class="font-lora text-xl mb-4">
+              Intégration & design de maquette web
+            </p>
+            <p class="text-sm text-gray-dark">DEV+ - Rouen</p>
+          </div>
+          <div class="max-w-260 mx-auto mb-10 md:max-w-full md:mx-0">
+            <p class="font-lora text-xl mb-4">
+              Développement de site web pour professionnels
+            </p>
+            <p class="text-sm text-gray-dark">WEBATRON - Paris</p>
+          </div>
+
+          <span class="mb-8 inline-block">2022</span>
+
+          <div class="max-w-260 mx-auto mb-10 md:max-w-full md:mx-0">
+            <p class="font-lora text-xl mb-4">
+              Titre professionnel webdesigner & webmaster
+            </p>
+            <p class="text-sm text-gray-dark">
+              Formation "Cap Design" - Bordeaux
+            </p>
+          </div>
+          <div class="max-w-260 mx-auto mb-16 md:max-w-full md:mx-0">
+            <p class="font-lora text-xl mb-4">
+              Développeur web & d'application mobile
+            </p>
+            <p class="text-sm text-gray-dark">ENIGMATIX - Bordeaux</p>
+          </div>
+
+          <a href="./images/general/CV.pdf"
+            class="text-xs bg-main text-white flex max-w-260 mx-auto justify-center items-center py-4 px-6 sm:text-sm md:max-w-full md:text-base md:px-10"
+            download>
+            Télécharger mon CV
+            <img width="20" height="18" class="ml-4 h-2.5 duration-200 md:h-3" src="./images/general/ArrowDownload.png"
+              alt="">
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION SKILLS -->
+    <section id="competences" class="bg-main px-4 pt-14 pb-20 md:pt-20 md:pb-24">
+
+      <p class="italic font-lora text-center text-gray-light text-sm mb-4 md:text-lg">voici mes technologies préférées
+      </p>
+
+      <h2
+        class="text-white font-lora relative z-0 text-2xl w-fit mx-auto mb-7 sm:text-4xl sm:mb-10 md:text-5xl md:mb-12
+                                 after:absolute after:w-full after:h-2 after:bottom-0 after:left-0 after:-z-10 after:bg-main-light sm:after:h-5 sm:after:-bottom-2">
+        Mes compétences</h2>
+      <p
+        class="text-xs text-gray-light leading-5 max-w-xs mx-auto text-center mb-16 sm:text-sm sm:mb-6 sm:leading-7 sm:max-w-sm lg:max-w-md">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+        accusamus magni fuga, ratione cumque adipisci veritatis veniam modi.
+      </p>
+
+      <div
+        class="grid max-w-xs mx-auto grid-cols-2 sm:grid-cols-3 sm:max-w-md md:py-8 lg:flex lg:justify-center lg:max-w-none lg:items-center">
+
+        <div class="text-white flex justify-center items-center flex-col p-2 lg:mx-6">
+          <img width="56" height="56" src="./images/skills/JS.png" alt="logo de JavaScript"
+            class="h-10 mb-4 lg:h-12 xl:h-14">
+          <p class="font-lora text-xl md:text-2xl">JavaScript</p>
+          <p class="italic text-gray-light">9 ans</p>
+        </div>
+
+        <div class="text-white flex justify-center items-center flex-col p-4 lg:mx-6">
+          <img width="63" height="57" class="h-10 mb-4 lg:h-12 xl:h-14" src="./images/skills/React.png"
+            alt="logo de React" />
+          <p class="font-lora text-xl md:text-2xl">React</p>
+          <p class="italic text-gray-light">5 ans</p>
+        </div>
+
+        <div class="text-white flex justify-center items-center flex-col p-4 lg:mx-6">
+          <img width="45" height="56" class="h-10 mb-4 lg:h-12 xl:h-14" src="./images/skills/Flutter.png"
+            alt="logo de Flutter" />
+          <p class="font-lora text-xl md:text-2xl">Flutter</p>
+          <p class="italic text-gray-light">3 ans</p>
+        </div>
+
+        <div class="text-white flex justify-center items-center flex-col p-4 lg:mx-6">
+          <img width="75" height="57" class="h-10 mb-4 lg:h-12 xl:h-14" src="./images/skills/Sass.png"
+            alt="logo de Sass" />
+          <p class="font-lora text-xl md:text-2xl">Sass</p>
+          <p class="italic text-gray-light">6 ans</p>
+        </div>
+
+        <div class="text-white flex justify-center items-center flex-col p-4 lg:mx-6">
+          <img width="50" height="57" class="h-10 mb-4 lg:h-12 xl:h-14" src="./images/skills/Node.png"
+            alt="logo de Node" />
+          <p class="font-lora text-xl md:text-2xl">Node</p>
+          <p class="italic text-gray-light">5 ans</p>
+        </div>
+
+        <div class="text-white flex justify-center items-center flex-col p-4 lg:mx-6">
+          <img width="56" height="56" class="h-10 mb-4 lg:h-12 xl:h-14" src="./images/skills/Mongo.png"
+            alt="logo de MongoDB" />
+          <p class="font-lora text-xl md:text-2xl">Mongo</p>
+          <p class="italic text-gray-light">5 ans</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION PROJECTS -->
+    <section id="projets" class="p-14 pb-20 px-4 sm:pb-28 sm:pt-20 lg:pb-72">
+
+      <p class="italic font-lora text-center text-gray-dark text-sm mb-4 md:text-lg">
+        Découvrez mon savoir-faire
+      </p>
+
+      <h2
+        class="text-main font-lora relative z-0 text-2xl w-fit mx-auto mb-7 sm:text-4xl sm:mb-10 md:text-5xl md:mb-12 after:absolute after:w-full after:h-2 after:bottom-0 after:left-0 after:-z-10 after:bg-red-light sm:after:h-5 sm:after:-bottom-2">
+        Mes Derniers Projets
+      </h2>
+      <p
+        class="text-xs text-gray-dark leading-5 max-w-xs mx-auto text-center sm:text-sm sm:leading-7 sm:max-w-sm lg:max-w-md">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+        accusamus magni fuga, ratione cumque adipisci veritatis veniam modi.
+      </p>
+
+      <!-- Grid -->
+      <div
+        class="grid grid-col-1 gap-12 mt-12 max-w-4xl mx-auto md:gap-x-12 md:gap-y-28 md:mt-24 md:grid-cols-2 lg:max-w-5xl">
+
+        <!-- Card 1 -->
+        <div class="max-w-sm mx-auto cursor-pointer lg:max-w-full">
+          <div class="group relative overflow-hidden mb-4 bg-gray-light lg:mb-8">
+            <img width="490" height="549" src="./images/mockups/mockup1.png" alt="mockup d'un site E-commerce">
+            <a href="#"
+              class="flex justify-center items-center font-semibold sm:text-lg lg:text-2xl
+            
+            absolute top-0 left-0 w-full h-full bg-main text-white opacity-0 z-10 translate-y-full duration-500 group-hover:translate-y-0 group-hover:opacity-70">
+              Visiter le site
+            </a>
+          </div>
+          <p class="font-lora text-main font-medium text-xl mb-3 sm:text-2xl">Site E-commerce</p>
+          <p class="text-dark-gray text-xs leading-5 max-w-xs sm:text-sm sm:leading-7 sm:max-w-sm lg:max-w-md">Lorem
+            ipsum dolor sit
+            amet
+            consectetur
+            adipisicing elit.
+            Soluta
+            accusamus magni fuga, ratione cumque adipisci veritatis veniam
+            modi.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="max-w-sm mx-auto cursor-pointer lg:max-w-full lg:translate-y-40">
+          <div class="group relative overflow-hidden mb-4 bg-gray-light lg:mb-8">
+            <img width="490" height="549" src="./images/mockups/mockup2.png"
+              alt="mockup d'un site pour une application mobile pour la domotique">
+            <a href="#"
+              class="flex justify-center items-center font-semibold sm:text-lg lg:text-2xl
+                            
+                            absolute top-0 left-0 w-full h-full bg-main text-white opacity-0 z-10 translate-y-full duration-500 group-hover:translate-y-0 group-hover:opacity-70">
+              Visiter le site
+            </a>
+          </div>
+          <p class="font-lora text-main font-medium text-xl mb-3 sm:text-2xl">Application Mobile pour la Domotique</p>
+          <p class="text-dark-gray text-xs leading-5 max-w-xs sm:text-sm sm:leading-7 sm:max-w-sm lg:max-w-md">Lorem
+            ipsum dolor sit
+            amet
+            consectetur
+            adipisicing elit.
+            Soluta
+            accusamus magni fuga, ratione cumque adipisci veritatis veniam
+            modi.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="max-w-sm mx-auto cursor-pointer lg:max-w-full">
+          <div class="group relative overflow-hidden mb-4 bg-gray-light lg:mb-8">
+            <img width="490" height="549" src="./images/mockups/mockup3.png"
+              alt="mockup d'un site pour un constructeur d'immeubles">
+            <a href="#"
+              class="flex justify-center items-center font-semibold sm:text-lg lg:text-2xl
+                                    
+                                    absolute top-0 left-0 w-full h-full bg-main text-white opacity-0 z-10 translate-y-full duration-500 group-hover:translate-y-0 group-hover:opacity-70">
+              Visiter le site
+            </a>
+          </div>
+          <p class="font-lora text-main font-medium text-xl mb-3 sm:text-2xl">Site de Constructeur d'Immeubles</p>
+          <p class="text-dark-gray text-xs leading-5 max-w-xs sm:text-sm sm:leading-7 sm:max-w-sm lg:max-w-md">Lorem
+            ipsum dolor sit
+            amet
+            consectetur
+            adipisicing elit.
+            Soluta
+            accusamus magni fuga, ratione cumque adipisci veritatis veniam
+            modi.</p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="max-w-sm mx-auto cursor-pointer lg:max-w-full lg:translate-y-40">
+          <div class="group relative overflow-hidden mb-4 bg-gray-light lg:mb-8">
+            <img width="490" height="549" src="./images/mockups/mockup4.png"
+              alt="mockup d'un site pour une application de montage vidéo">
+            <a href="#"
+              class="flex justify-center items-center font-semibold sm:text-lg lg:text-2xl
+                                            
+                                            absolute top-0 left-0 w-full h-full bg-main text-white opacity-0 z-10 translate-y-full duration-500 group-hover:translate-y-0 group-hover:opacity-70">
+              Visiter le site
+            </a>
+          </div>
+          <p class="font-lora text-main font-medium text-xl mb-3 sm:text-2xl">Application pour Montage Vidéo</p>
+          <p class="text-dark-gray text-xs leading-5 max-w-xs sm:text-sm sm:leading-7 sm:max-w-sm lg:max-w-md">Lorem
+            ipsum dolor sit
+            amet
+            consectetur
+            adipisicing elit.
+            Soluta
+            accusamus magni fuga, ratione cumque adipisci veritatis veniam
+            modi.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION CONTACT -->
+    <section id="contact"
+      class="py-20 px-4 mx-auto max-w-4xl border-solid border-t-2 border-gray-light sm:py-24 md:py-28 lg:py-32">
+      <p
+        class="font-lora text-3xl max-w-lg mx-auto text-center font-medium leading-snug text-main mb-14 sm:mb-20 sm:text-4xl sm:leading-snug sm:max-w-xl md:text-5xl md:leading-snug md:max-w-3xl">
+        Faites-moi savoir si vous êtes intéressés par une
+        <strong class="italic">potentielle collaboration</strong>. Je suis
+        disponible pour du travail en Freelance.
+      </p>
+      <!-- Les blocs -->
+      <div class="text-main flex justify-center items-center flex-col md:flex-row md:justify-around">
+        <!-- Bloc 1 -->
+        <div class="border rounded-sm w-full max-w-xs text-center bg-zinc-50 py-16 px-4 mb-5 md:mb-0 lg:px-8">
+          <img width="66" height="48" class="block mx-auto h-9 mb-10 md:h-12" src="./images/footer/Mail.png"
+            alt="icone de mail">
+          <p class="font-bold mb-1 md:text-lg lg:text-xl">Adresse mail</p>
+          <p class="md:text-lg">olegsakharov@gmail.com</p>
+        </div>
+
+        <!-- Bloc 2 -->
+        <div class="border rounded-sm w-full max-w-xs text-center bg-zinc-50 py-16 px-4 mb-5 md:mb-0 lg:px-8">
+          <img width="48" height="48" class="block mx-auto h-9 mb-10 md:h-12" src="./images/footer/Phone.png"
+            alt="icone de telephone">
+          <p class="font-bold mb-1 md:text-lg lg:text-xl">Numéro de téléphone</p>
+          <p class="md:text-lg">06 52 62 88 92</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-main py-12 px-8 md:py-10 lg:py-8">
+
+    <div class="max-w-4xl mx-auto flex items-center flex-col lg:flex-row lg:justify-between">
+
+      <p class="text-white underline">olegsakharov@gmail.com</p>
+
+      <div class="flex my-4 lg:order-3">
+        <a href="#" target="_blank" class="p-2">
+          <img width="17" height="17" class="h-4" src="./images/social-media/facebook.png"
+            alt="Visiter la page Facebook de Oleg Sakharov">
+        </a>
+        <a href="#" target="_blank" class="p-2">
+          <img width="17" height="17" class="h-4" src="./images/social-media/instagram.png"
+            alt="Visiter la page Instagram de Oleg Sakharov">
+        </a>
+        <a href="#" target="_blank" class="p-2">
+          <img width="17" height="17" class="h-4" src="./images/social-media/twitter.png"
+            alt="Visiter la page Twitter de Oleg Sakharov">
+        </a>
+        <a href="#" target="_blank" class="p-2">
+          <img width="17" height="17" class="h-4" src="./images/social-media/linkedin.png"
+            alt="Visiter la page Linkedin de Oleg Sakharov">
+        </a>
+      </div>
+
+      <!-- dernier paragraphe -->
+      <a href="#" class="font-lora text-white text-base">© Copyright Oleg Sakharov. Tous droit réservés.</a>
+
+    </div>
+
+  </footer>
+
+
+
+
+  <!-- <h1 class="bg-red-400 text-center text-4xl">Lorem ipsum dolor sit amet.</h1> -->
+  <script src="main.js"></script>
+</body>
+
+</html>
